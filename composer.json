@@ -1,5 +1,5 @@
 {
-  "name": "deliciousbrains/spinupwp-composer-site",
+  "name": "paviliondev/spinupwp-composer-site",
   "keywords": [
     "WordPress",
     "Composer",
@@ -8,8 +8,8 @@
   "license": "GPL-2.0+",
   "authors": [
     {
-      "name": "Delicious Brains",
-      "homepage": "https://deliciousbrains.com/"
+      "name": "Pavilion",
+      "homepage": "https://thepavilion.io/"
     }
   ],
   "type": "project",
@@ -17,6 +17,10 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/discourse/wp-discourse.git"
     }
   ],
   "config": {
@@ -31,14 +35,21 @@
     "vlucas/phpdotenv": "^3.0",
     "wpackagist-plugin/limit-login-attempts-reloaded": "*",
     "wpackagist-plugin/spinupwp": "*",
-    "wpackagist-theme/twentynineteen": "*"
+    "wpackagist-theme/twentynineteen": "*",
+    "discourse/wp-discourse": "*"
   },
   "extra": {
     "wordpress-install-dir": "public/wp",
     "installer-paths": {
-      "public/content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-      "public/content/plugins/{$name}/": ["type:wordpress-plugin"],
-      "public/content/themes/{$name}/": ["type:wordpress-theme"]
+      "public/content/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "public/content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "public/content/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
     }
   },
   "scripts": {
@@ -47,6 +58,8 @@
     ]
   },
   "autoload": {
-    "psr-4": {"DeliciousBrains\\SpinupWPComposerSite\\": "app/"}
+    "psr-4": {
+      "DeliciousBrains\\SpinupWPComposerSite\\": "app/"
+    }
   }
 }
