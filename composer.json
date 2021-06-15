@@ -32,7 +32,7 @@
     "wpackagist-plugin/limit-login-attempts-reloaded": "*",
     "wpackagist-plugin/spinupwp": "*",
     "wpackagist-theme/twentynineteen": "*",
-    "discourse/wp-discourse": "*"
+    "discourse/wp-discourse": "2.2.4"
   },
   "extra": {
     "wordpress-install-dir": "public/wp",
