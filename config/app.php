@@ -9,7 +9,7 @@
  * can.
  */
 
-use \DeliciousBrains\SpinupWPComposerSite\App;
+use \Pavilion\SpinupWPComposerSite\App;
 
 $root_dir    = dirname( __DIR__ );
 $webroot_dir = $root_dir . '/public';

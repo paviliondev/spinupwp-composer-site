@@ -1,6 +1,6 @@
 <?php
 
-namespace DeliciousBrains\SpinupWPComposerSite;
+namespace Pavilion\SpinupWPComposerSite;
 
 class App {
 

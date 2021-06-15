@@ -1,8 +1,6 @@
-# SpinupWP Composer Site
+# Pavilion Composer Wordpress
 
-This is a WordPress site setup using Composer that is primed and ready to be hosted using [SpinupWP](https://spinupwp.com/).
-
-Inspired by Root's Bedrock and other Composer based setups.
+A fork of [Delicious Brains' SpinupWP Composer Site](https://github.com/deliciousbrains/spinupwp-composer-site)
 
 ## Requirements
 
@@ -11,11 +9,7 @@ Inspired by Root's Bedrock and other Composer based setups.
 
 ## Installation
 
-1. Create a new project: 
-    ```sh
-    $ composer create-project deliciousbrains/spinupwp-composer-site
-    ```
-2. Update environment variables in the `.env` file:
+1. Update environment variables in the `.env` file:
   * `DB_NAME` - Database name
   * `DB_USER` - Database user
   * `DB_PASSWORD` - Database password
@@ -23,9 +17,9 @@ Inspired by Root's Bedrock and other Composer based setups.
   * `WP_ENV` - Set to environment (`development`, `staging`, `production`)
   * `WP_HOME` - Full URL to WordPress home (https://mysite.com)
   * `WP_SITEURL` - Full URL to WordPress including subdirectory (https://mysite.com/wp)
-3. Add theme(s) in `public/content/themes/` as you would for a normal WordPress site
-4. Set the document root in SpinupWP's server settings to `/public`. 
-5. Access WordPress admin at `https://mysite.com/wp/wp-admin/`
+2. Add theme(s) in `public/content/themes/` as you would for a normal WordPress site
+3. Set the document root in SpinupWP's server settings to `/public`. 
+4. Access WordPress admin at `https://mysite.com/wp/wp-admin/`
 
 
 

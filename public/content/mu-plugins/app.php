@@ -1,3 +1,3 @@
 <?php
 // Bootstrap our site code
-( new DeliciousBrains\SpinupWPComposerSite\App() )->register();
+( new Pavilion\SpinupWPComposerSite\App() )->register();
